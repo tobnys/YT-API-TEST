@@ -32,7 +32,6 @@
             var imgSrc = result.items[i].snippet.thumbnails.default.url;
             $(".js-results").append(`<img src="${imgSrc}">`)
         }
-        
     }
 
     /*
